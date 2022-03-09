@@ -4,7 +4,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const NavBar = () => {
   return (
-    <div style={{width:"100%",height:359,backgroundImage:`url(bg.jpg)`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',objectFit:'cover',paddingTop:10}}>
+    <div style={{width:"100%",height:359,backgroundImage:`url(bg1.jpg)`,backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover',objectFit:'cover',paddingTop:10,margin:'0 0 20px'}}>
 
         <nav style={{width:'100%',height:80,display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <div style={{width:200,height:80,display:'flex',alignItems:'center'}}>
@@ -34,6 +34,8 @@ const NavBar = () => {
             
         </nav>
         <div style={{fontSize:12,paddingLeft:30,marginTop:10}}>Home/Book</div>
+
+        <h1 style={{fontSize:34,fontWeight:'lighter',marginTop:65,padding:'0 0 0 90px'}}>Worship</h1>
         
     </div>
   )
