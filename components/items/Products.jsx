@@ -18,25 +18,25 @@ const Products = () => {
 
             <div style={{flex:1,borderTop:'1px solid lightgrey',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
                 <p>Genre</p>
-                <AddIcon />
+                <AddIcon  fontSize="19px" />
             </div>
 
 
             <div style={{flex:1,borderTop:'1px solid lightgrey',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <p>Artist</p>
-            <AddIcon />
+            <AddIcon fontSize="19px" />
             </div>
 
 
             <div style={{flex:1,borderTop:'1px solid lightgrey',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <p>Categories</p>
-            <AddIcon />
+            <AddIcon  fontSize="19px" />
             </div>
 
 
             <div style={{flex:1,borderTop:'1px solid lightgrey',borderBottom:'1px solid lightgrey',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <p>Brand</p>
-            <AddIcon />
+            <AddIcon fontSize="19px" />
             </div>
         </div>
 

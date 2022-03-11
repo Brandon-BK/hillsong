@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const NavBar = () => {
   return (
@@ -24,12 +28,25 @@ const NavBar = () => {
 
 
             
-            <div style={{width:500,height:80,display:'flex',border:"1px solid green",fontSize:13,alignItems:'center',paddingLeft:40}}>
-                <div>
+            <div style={{width:500,height:80,display:'flex',fontSize:13,alignItems:'center',paddingLeft:40}}>
+                <div style={{alignItems:'center',display:'flex',width:180}}>
                     <img src="./flag.png" height="17px" width="21px" />
+                    <p style={{marginLeft:5,marginRight:20}}>USD - US Dollar</p>
+                    <KeyboardArrowDownIcon  fontSize="10px" />
                 </div>
-                <p style={{marginLeft:5,marginRight:20}}>USD - US Dollar</p>
-                <KeyboardArrowDownIcon />
+                
+
+                <div style={{width:100,alignItems:'center',justifyContent:'space-between',height:'100%',marginLeft:20,display:'flex'}}>
+                    <SearchOutlinedIcon />
+                    <PersonOutlineOutlinedIcon  />
+                    <FavoriteBorderOutlinedIcon  />
+                </div>
+                <div style={{borderRight:'1px solid grey',height:30,marginLeft:20}}></div>
+
+                <div style={{width:80,alignItems:'center',justifyContent:'space-between',height:'100%',marginLeft:20,display:'flex'}}>
+                   <ShoppingCartOutlinedIcon />
+                   <p>CART</p>
+                </div>
             </div>
             
         </nav>

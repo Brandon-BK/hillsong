@@ -33,7 +33,6 @@ const Footer = () => {
         >
           <div style={{ fontSize: 15, color: "grey" }}>
             <p
-              className="footer-link"
               style={{ color: "white", marginBottom: 40 }}
             >
               Useful links
@@ -114,39 +113,33 @@ const Footer = () => {
 
           <div style={{ fontSize: 15, color: "grey" }}>
             <p
-              className="footer-link"
-              style={{ color: "white", marginBottom: 40, cursor: "pointer" }}
+              style={{ color: "white", marginBottom: 40}}
             >
               Information
             </p>
             <p
-              className="footer-link"
-              style={{ color: "grey", marginBottom: 60, cursor: "pointer" }}
+              style={{ color: "grey", marginBottom: 60}}
             >
               Tax/GST will be calculated at the checkout.
             </p>
 
             <p
-              className="footer-link"
-              style={{ fontSize: 15, marginBottom: 10, cursor: "pointer" }}
+              style={{ fontSize: 15, marginBottom: 10}}
             >
               Hillsong Music Australia
             </p>
             <p
-              className="footer-link"
-              style={{ fontSize: 15, marginBottom: 10, cursor: "pointer" }}
+              style={{ fontSize: 15, marginBottom: 10}}
             >
               1-9 Solent Circuit
             </p>
             <p
-              className="footer-link"
-              style={{ fontSize: 15, marginBottom: 10, cursor: "pointer" }}
+              style={{ fontSize: 15, marginBottom: 10}}
             >
               Norwest NSW 2153
             </p>
             <p
-              className="footer-link"
-              style={{ fontSize: 15, marginBottom: 10, cursor: "pointer" }}
+              style={{ fontSize: 15, marginBottom: 10}}
             >
               Australia
             </p>
@@ -180,9 +173,9 @@ const Footer = () => {
             alignItems: "center",
           }}
         >
-          <FacebookIcon />
-          <InstagramIcon />
-          <TwitterIcon />
+          <FacebookIcon fontSize="22px" />
+          <InstagramIcon fontSize="22px" />
+          <TwitterIcon fontSize="22px" />
         </div>
       </div>
     </Box>

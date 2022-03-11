@@ -12,7 +12,7 @@ const Sort = () => {
 
        <div style={{height:'100%',border:'1px solid grey',alignItems:'center',display:'flex',borderRadius:'5px',width:194,color:'grey',fontSize:14,alignItems:'center',display:'flex',justifyContent:'center'}}>
            <p style={{marginRight:20}}>Sort By:</p>
-            <KeyboardArrowDownIcon />
+            <KeyboardArrowDownIcon fontSize="22px"/>
         </div>
 
     </div>
